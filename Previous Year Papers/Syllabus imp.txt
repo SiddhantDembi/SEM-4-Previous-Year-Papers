@@ -1,0 +1,150 @@
+COA
+
+module 1
+Kmap
+Flip flops
+Demux/mux/full adder/half adder/full sub/half sub/encoder/decoder
+conversion numbers
+
+module 2
+8086: instructions, assembler directives, addressing modes, segmentation, internal architecture,8086 pins
+block level functions
+amdhal law
+comp architec vs organization
+von neuman
+
+module 3
+flyn
+control unit: soft and hard wired
+nano programming
+pipeline hazards
+pipeline instructions
+
+module 4
+booth
+restoring/non restoring div
+ieee
+
+module 5
+cache mapping techniques, adv/disadvtg
+cache mapping numerical
+memory hierarchy
+key characteristics of comp memory
+Cache Coherency
+
+module 6
+programmed control i/o
+dma theory and diag
+
+others: Assembly code
+
+-----------------------------------------------------------------
+
+CN
+
+module 1
+Osi model
+tcp/ip model
+topology
+network devices
+
+module 2
+guided/unguided
+transmission media
+ethernet: theory,protocols,aloha,csma/cd, persistent
+crc numerical
+lan,wan,man,pan
+data link protocol:stop and wait,sliding window,piggy,hdcl
+Mac
+switching
+
+module 3
+ipv4/ipv6: theory, header diag
+network address translation
+packet switching
+routing
+Ip addressing: classful/classless 
+arp,rarp
+BGP
+
+module 4
+Rpc
+TCP/UDP Header,application, differentiation
+TCP Congestion control
+TCP timers
+flow control, error control (theory and techniques)
+
+module 5
+Huffman numerical
+Speach compression
+Lossy/lossless compression
+SNMP,WWW,DNS,HTTP
+
+module 6
+Vlan
+
+-----------------------------------------------------------------
+
+AT
+
+module 1
+convert language to re
+what is re
+right linear/ left linear grammar
+re to right linear grammar, left linear grammar
+properties of re
+define closure property
+State the various set theoretic operations under which regular languages are closed
+
+module 2
+fa,nfa,dfa definition
+fa for decimal number divisible by 5
+nfa to dfa
+re to dfa
+fa to re
+nfa with e moves
+re to nfa with e moves
+nfa with e moves to dfa
+difference between nfa and dfa
+construct mealy mc for binary adder
+construct moore mc for language
+moore to mealy and vice versa
+difference bw moore and mealy
+dfa minimization/reduced
+
+module 3
+define cfg
+cfg derive string using leftmost/rightmost derivation
+what is ambiguous grammar
+prove that following is ambiguous grammar
+cfg to cnf
+cnf(chomsky) short note
+chomsky hierarchy with diag
+cfg to cnf
+cfg to gnf
+language to cfg
+simplification of cfg
+
+module 4
+design pda for language
+define pda
+structure of pda
+power and limitaion of pda
+
+module 5 
+define tm
+explain variants of tm
+explain working of tm with diagram
+design a tm to accept language(a^n.b^n.c^n)
+halting problem short note
+design tm and convert it to program
+power of tm
+
+module 6
+difference between fa,pda,tm,cfg and their application
+
+-----------------------------------------------------------------
+
+Maths
+
+module 1
