@@ -31,6 +31,7 @@ cache mapping numerical
 memory hierarchy
 key characteristics of comp memory
 Cache Coherency
+problems with application layer
 
 module 6
 programmed control i/o
