@@ -31,7 +31,6 @@ cache mapping numerical
 memory hierarchy
 key characteristics of comp memory
 Cache Coherency
-problems with application layer
 
 module 6
 programmed control i/o
@@ -43,47 +42,49 @@ others: Assembly code
 
 CN
 
-module 1
+#module 1
 Osi model
 tcp/ip model
 topology
 network devices
+lan,wan,man,pan
 
 module 2
 guided/unguided
 transmission media
 ethernet: theory,protocols,aloha,csma/cd, persistent
 crc numerical
-lan,wan,man,pan
-data link protocol:stop and wait,sliding window,piggy,hdcl
+data link protocol:stop and wait,sliding window,piggy,hdcl, go back n
 Mac
 switching
+packet switching
 
 module 3
 ipv4/ipv6: theory, header diag
 network address translation
-packet switching
 routing
 Ip addressing: classful/classless 
 arp,rarp
 BGP
 
-module 4
+#module 4
 Rpc
 TCP/UDP Header,application, differentiation
 TCP Congestion control
 TCP timers
 flow control, error control (theory and techniques)
 
-module 5
+#module 5
 Huffman numerical
 Speach compression
 Lossy/lossless compression
 SNMP,WWW,DNS,HTTP
 
-module 6
+#module 6
 Vlan
+Vpn
 
+numericals: huffman, crc, hamming code
 -----------------------------------------------------------------
 
 AT
@@ -149,3 +150,87 @@ difference between fa,pda,tm,cfg and their application
 Maths
 
 module 1
+find eigen values/ eigen vectors
+diagonalizable and non-diagonalizable matrices
+Cayley-Hamilton Theorem verification
+
+module 2
+evaluate integral along curve x
+evaluate integral where c is circle
+evaluate integral using cauchys residue theorem
+obtain laurent series expansion
+#maximum and minimum
+
+module 3
+find z transform convolution 
+find inverse z transform convolution/partial fraction
+
+#module 4
+probablity normal distribution problem
+test hypothesis problem
+chi square test problem
+standard deviation
+
+module 5
+simplex/dual simplex method problem
+big M method problems
+
+module 6
+Lagrange’s multipliers problem
+Kuhn-Tucker problems
+equality constraints problem
+
+
+-----------------------------------------------------------------
+
+OS
+
+module 1 and 6
+objectives,features and functions of os
+types of os in detail
+define os needs of os
+stateless and stateful services
+open source os
+network os
+distributed os
+
+
+module 2
+process vs threads
+multithreading, benefits, models
+process management numericals(gantt chart) : fcfs,sjf, round robin, priority
+what is scheduling/short/mid/long term
+starvation
+context switching
+
+module 3
+explain resource alloc graph
+how resource aloc graph determines deadlock
+deadlock conditions and soln/prevention/avoidance
+semaphore and its type
+dining philosopher problem
+race condition
+critical section problem,soln,peterson soln
+bankers algo numerical
+various modes of communication,need for communication between 2 devices
+synchronization
+
+module 4
+internal/external fragmentation
+fit memthod numericals
+page fault numericals (fifo,lru,optimal)
+virtual memory and advtg (logical to physical)
+paging , demand paging
+thrashing
+paging vs segmentation
+pure segmentation, pure paging, continuous memory allocation
+memory partition numerical
+
+module 5
+file attributes, operation and types
+disk scheduling numerical (fcfs,sstf,c-scan)
+file allocation method with diag (contiguous, linked, indexed)
+raid full
+file sys simultaneous mounting problem
+file sys organization
+2 phase locking protocol
