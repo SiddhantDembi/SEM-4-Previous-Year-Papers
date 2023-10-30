@@ -1,0 +1,74 @@
+EC2
+
+if python
+open vi: vi file.py
+enter 'a' to start code
+after completion: 'esc' => ':wq'
+
+if cpp
+sudo apt install build-essential
+to run: 
+g++ app.cpp -o app
+./app
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+if c
+sudo apt install build-essential
+to run:
+gcc file.c -o file
+./file
+
+if java
+sudo apt update
+sudo apt install openjdk-18-jdk-headless
+sudo apt install default-jdk
+to run:
+javac file.java
+java file
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+
+
+Lambda
+
+For hello world using lambda -
+	- go to lambda while creating lambda function select hello world python blueprint. once function is created go to test and click on 
+	  the small down arrow and configure a new test event. instead of value1 enter the thing that you need to print. once you create a 
+	  test event click on test and you get the output in execution results.
+	- if you want to create without a blueprint create lambda function with default options and type the following code :
+		import json
+
+		def lambda_handler(event, context):
+    			print("hello")
+    			return {
+        			'statusCode': 200,
+        			'body': json.dumps("hello from lambdaa")
+			}
+
+Terraform
+Main.tf
+provider "aws" {
+access_key="AKIASIMUGB3ANOIMUYEL"
+secret_key="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"
+region="ap-south-1"
+}
+resource "aws_instance" "Ubuntu" {
+ami = "ami-0287a05f0ef0e9d9a"
+instance_type="t2.micro"
+}
+terraform
+terraform init
+terraform plan
+terrafrom apply
+terraform destroy
